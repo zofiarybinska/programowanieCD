@@ -15,7 +15,7 @@ function preload() {
 function setup() {
   createCanvas(600, 600);
   noCursor();
-  //describe('The cursor appears as image.');
+  describe('The cursor appears as image.');
 }
 
 function draw() {
@@ -35,8 +35,15 @@ function draw() {
     } else {
       image(zam2, 50, 50);
     }
-  } else if (chapter == 3) {
+   } else if (chapter == 3) {
+     if (click == true) {
+       click = false;
+       chapter = 4;
+      } else {
     image(zam3, 50, 50);
+      }
+   } else if (chapter == 4) {
+    zam3.resize(0,0);
   }
   
   image(img, mouseX, mouseY);
@@ -45,4 +52,6 @@ function draw() {
 
 function mousePressed() {
   click = true;
+  
+window.open ('https://sunsetlika.github.io/projekt/','_self');
 }
