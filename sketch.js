@@ -69,7 +69,7 @@ count ++
   if(count>4){
   ekran = 1;
  }
- if(count==7){
+ if(count==6){
     window.open('https://sunsetlika.github.io/projekt/','_self');
  }
 }
