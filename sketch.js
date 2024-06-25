@@ -31,7 +31,7 @@ function setup() {
 function draw() {
   background(192, 223, 161); 
   fill(0);
-  text('Catch the castle',1920/2,200);
+  text('Get on the bouncy castle',1920/2,200);
   if (count == 0) {
     background(0);
     fill(192, 223, 161);
