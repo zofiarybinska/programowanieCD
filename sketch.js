@@ -31,11 +31,11 @@ function setup() {
 function draw() {
   background(192, 223, 161); 
   fill(0);
-  text('catch the castle!',1920/2,200);
+  text('Catch the castle',1920/2,200);
   if (count == 0) {
     background(0);
     fill(192, 223, 161);
-    text('level 1 Denial ',1920/2,1080/2);
+    text('level 1 Denial ',1920/2,1080/2,);
   }
    if (count >= 4) {
     image(strz,1500,800);}
